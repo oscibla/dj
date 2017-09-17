@@ -152,7 +152,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-brand {
   color: #FF6600;
-  font-family: "Monserrat Regular";
+  font-family: "Karla";
   text-transform: uppercase;
 }
 .navbar-custom .navbar-brand:hover,
@@ -555,7 +555,8 @@ aside.clients img {
   margin: 50px auto;
 }
 section#contact {
-  background-color: #FFFFFF;
+  background-image: url("img/dj3.jpg");
+
 }
 section#contact .section-heading {
   color: white;
@@ -764,8 +765,8 @@ header {
   background-image: url("../img/005.jpg");
 background-size: cover;
 background-position: center;
-padding-top: 50px;
-padding-bottom: 50px;
+padding-top: 250px;
+
 
 }
 .over-image {
@@ -813,4 +814,17 @@ padding-bottom: 50px;
 }
 .orange {
   color: #FF6600;
+}
+#echo {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.contact-me {
+  background-image: url("../img/dj3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
 }
