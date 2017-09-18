@@ -147,12 +147,12 @@ fieldset[disabled] .btn-xl.active {
   background-color: white;
 }
 .navbar-custom {
-  background-color: #019461;
+  background-color: #FF6600;
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
   color: #FF6600;
-  font-family: "Karla";
+  font-family: "Fjalla One";
   text-transform: uppercase;
 }
 .navbar-custom .navbar-brand:hover,
@@ -822,6 +822,7 @@ padding-top: 250px;
 .contact-me {
   background-image: url("../img/dj3.jpg");
   background-repeat: no-repeat;
+  background-attachment: scroll;
   background-position: center center;
   background-size: cover;
   -o-background-size: cover;
