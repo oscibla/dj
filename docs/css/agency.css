@@ -228,15 +228,15 @@ fieldset[disabled] .btn-xl.active {
 }
 header {
   background-image: url('../img/dj.png');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  text-align: center;
-  color: white;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: white;
 }
 header .intro-text {
   padding-top: 100px;
@@ -743,10 +743,6 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #fed136;
 }
-header {
-  color: #FFFFFF;
-}
-
 .navbar-custom .navbar-brand {
   color: #FFFFFF;
 }
@@ -771,6 +767,8 @@ padding-top: 250px;
 }
 .over-image {
   color: white;
+  text-align: center;
+  padding-top: 200px;
 }
 .date {
   font-size: 75px;
@@ -834,4 +832,8 @@ a {
 }
 a:hover {
   text-decoration: none;
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
 }
