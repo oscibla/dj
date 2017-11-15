@@ -762,13 +762,14 @@ body {
 background-size: cover;
 background-position: center;
 padding-top: 250px;
-
-
 }
 .over-image {
   color: white;
   text-align: center;
   padding-top: 200px;
+}
+.white {
+  color: white;
 }
 .date {
   font-size: 75px;
@@ -834,6 +835,6 @@ a:hover {
   text-decoration: none;
 }
 .parallax-window {
-    min-height: 400px;
+    min-height: 500px;
     background: transparent;
 }
