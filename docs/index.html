@@ -133,7 +133,9 @@
                       <p>Worte können nicht ausdrücken wie dankbar wir Dir sind für Deine Präsenz und Freude [...]</p>
 
                   </div>
-
+                  <div class="col-lg-12 text-center">
+                    <a class="btn btn-primary" href="#write" class="portfolio-link" data-toggle="modal"> <i class="fa fa-pencil"></i> Rezension schreiben</a>
+                  </div>
               </div>
           </div>
       </div>
@@ -362,6 +364,56 @@
                                   <br>
                                   Quelle: http://www.e-recht24.de
                                   <br>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Schließen</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Rezension schreiben Modal-->
+    <div class="portfolio-modal modal fade" id="write" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Rezension verfassen</h2>
+                                <form method="POST" action="http://formspree.io/oscarblank@mail.de">
+                                  <input type="hidden" name="_next" value="http://dj-kleinmachnow.de/thanks.html" />
+                                  <div class="row">
+                                    <div class="col-md-6">
+                                      <div class="form-group">
+                                        <input class="form-control" name="email" placeholder="eMail" type="email" required>
+                                      </div>
+                                      <div class="form-group">
+                                        <input class="form-control" name="name" placeholder="Name" type="text" required>
+                                      </div>
+                                      <div class="form-group">
+                                        <input class="form-control" name="event" placeholder="Veranstaltung" type="text" required>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                      <div class="form-group">
+                                        <input class="form-control" name="stars" placeholder="...von 5 Sternen" type="text" required>
+                                      </div>
+                                      <div class="form-group">
+                                        <textarea class="form-control" name="message" placeholder="Rezension" required></textarea>
+                                      </div>
+                                        <button class="btn btn-xl" type="submit">Senden</button>
+                                    </div>
+                                  </div>
+                                  </form>
+
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Schließen</button>
                             </div>
                         </div>
